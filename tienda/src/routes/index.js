@@ -4,7 +4,31 @@ const router = Router()
 
 router.get('/', (req, res) => res.render('index', { title: 'FASHION BEAUTY' }))
 
-router.get('/about', (req, res) => res.render('about', { title: 'About me' }))
+router.get('/ropa-hombre-boda', (req, res) => res.render('ropa-hombre-boda', { title: 'Ropa de hombre para boda' }))
+
+router.get('/ropa-hombre-camisa-casual', (req, res) => res.render('ropa-hombre-camisa-casual', { title: 'Camisa casual de hombre' }))
+
+router.get('/ropa-hombre-camiseta-deportiva', (req, res) => res.render('ropa-hombre-camiseta-deportiva', { title: 'Camistea deportivo de hombre' }))
+
+router.get('/ropa-hombre-short-deportivo', (req, res) => res.render('ropa-hombre-short-deportivo', { title: 'Short deportivo de hombre' }))
+
+router.get('/ropa-hombre-jeans', (req, res) => res.render('ropa-hombre-jeans', { title: 'Jeans para hombre' }))
+
+router.get('/ropa-hombre-formal', (req, res) => res.render('ropa-hombre-formal', { title: 'Ropa Formal para hombre' }))
+
+router.get('/ropa-mujer-formal', (req, res) => res.render('ropa-mujer-formal', { title: 'Ropa Formal para mujer' }))
+
+router.get('/ropa-mujer-falda-deportiva', (req, res) => res.render('ropa-mujer-falda-deportiva', { title: 'Falda Deportiva para mujer' }))
+
+router.get('/ropa-mujer-pantalon', (req, res) => res.render('ropa-mujer-pantalon', { title: 'Pantalón para mujer' }))
+
+router.get('/ropa-mujer-top-deportivo', (req, res) => res.render('ropa-mujer-top-deportivo', { title: 'Top deportivo para mujer' }))
+
+router.get('/ropa-mujer-top', (req, res) => res.render('ropa-mujer-top', { title: 'Top deportivo para mujer' }))
+
+router.get('/ropa-mujer-formal', (req, res) => res.render('ropa-mujer-formal', { title: 'Ropa Formal para mujer' }))
+
+router.get('/ropa-mujer-boda', (req, res) => res.render('ropa-mujer-boda', { title: 'Ropa mujer para boda' }))
 
 router.get('/categorias-resalta-labios', (req, res) => res.render('categorias-resalta-labios', { title: 'Resalta tus labios' }))
 
@@ -100,10 +124,6 @@ router.get('/rimel-agua-publicidad', (req, res) => res.render('rimel-agua-public
 
 router.get('/rimel-agua', (req, res) => res.render('rimel-agua', { title: 'Publicidad del rimel agua' }))
 
-router.get('/mesagge', (req, res) => res.render('mesagge', { title: 'mesagge' }))
-
-router.get('/categorias', (req, res) => res.render('categorias', { title: 'categorias' }))
-
 router.get('/categorias', (req, res) => res.render('categorias', { title: 'categorias' }))
 
 router.get('/categorias-hombre', (req, res) => res.render('categorias-hombre', { title: 'Categorias de hombre' }))
@@ -142,13 +162,30 @@ router.get('/perfume-hombre-publicidad', (req, res) => res.render('perfume-hombr
 
 router.get('/perfume-hombre', (req, res) => res.render('perfume-hombre', { title: 'Perfume de Hombre' }))
 
-router.get('/sombras', (req, res) => res.render('sombras', { title: 'sombras' }))
-
-router.get('/unias', (req, res) => res.render('unias', { title: 'unias' }))
-
-router.get('/cara', (req, res) => res.render('cara', { title: 'cara' }))
-
 router.get('/mascarilla', (req, res) => res.render('mascarilla', { title: 'mascarilla' }))
 
+router.get('/zapatos-mujer-boda', (req, res) => res.render('zapatos-mujer-boda', { title: 'Zapatos de boda de mujer' }))
+
+router.get('/zapatos-mujer-botines', (req, res) => res.render('zapatos-mujer-botines', { title: 'Zapatos de botines de mujer' }))
+
+router.get('/zapatos-mujer-deportivos', (req, res) => res.render('zapatos-mujer-deportivos', { title: 'Zapatos de deportivos de mujer' }))
+
+router.get('/zapatos-mujer-formales', (req, res) => res.render('zapatos-mujer-formales', { title: 'Zapatos formales de mujer' }))
+
+router.get('/zapatos-mujer-sandalias', (req, res) => res.render('zapatos-mujer-sandalias', { title: 'zapatos sandalias de mujer' }))
+
+router.get('/zapatos-mujer-zapatillas-deportivas', (req, res) => res.render('zapatos-mujer-zapatillas-deportivas', { title: 'Zapatillas deportivas de mujer' }))
+
+router.get('/zapatos-hombre-boda', (req, res) => res.render('zapatos-hombre-boda', { title: 'Zapatos de boda de mujer' }))
+
+router.get('/zapatos-hombre-charol', (req, res) => res.render('zapatos-hombre-charol', { title: 'Zapatos de charol de hombre' }))
+
+router.get('/zapatos-hombre-formales', (req, res) => res.render('zapatos-hombre-formales', { title: 'Zapatos Formales de hombre' }))
+
+router.get('/zapatos-hombre-tacos-deportivos-futbol', (req, res) => res.render('zapatos-hombre-tacos-deportivos-futbol', { title: 'Zapatos de tacos deportivos de fútbol de hombre' }))
+
+router.get('/zapatos-hombre-traje', (req, res) => res.render('zapatos-hombre-traje', { title: 'Zapatos de traje de hombre' }))
+
+router.get('/zapatos-hombre-zapatillas-deportivas', (req, res) => res.render('zapatos-hombre-zapatillas-deportivas', { title: 'Zapatillas deportivas de hombre' }))
 
 export default router
