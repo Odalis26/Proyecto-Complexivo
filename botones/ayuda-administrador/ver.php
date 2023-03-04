@@ -1,7 +1,7 @@
 <html>
 
 <head>
-  <title>.: CRUD :.</title>
+  <title>.: FASHION BEAUTY :.</title>
   <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
   <script src="js/jquery.min.js"></script>
 </head>
@@ -34,8 +34,8 @@
                     <input type="text" class="form-control" name="lastname" required>
                   </div>
                   <div class="form-group">
-                    <label for="address">¿En qué le podemos ayudar?</label>
-                    <input type="text" class="form-control" name="address" required>
+                    <label for="help">¿En qué le podemos ayudar?</label>
+                    <input type="text" class="form-control" name="help" required>
                   </div>
                   <div class="form-group">
                     <label for="email">Email</label>

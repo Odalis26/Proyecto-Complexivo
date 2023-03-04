@@ -1,11 +1,11 @@
 <?php
 
 if(!empty($_POST)){
-	if(isset($_POST["name"]) &&isset($_POST["lastname"]) &&isset($_POST["email"]) &&isset($_POST["address"]) &&isset($_POST["phone"])){
-		if($_POST["name"]!=""&& $_POST["lastname"]!=""&&$_POST["address"]!=""){
+	if(isset($_POST["name"]) &&isset($_POST["lastname"]) &&isset($_POST["email"]) &&isset($_POST["description"]) &&isset($_POST["phone"])){
+		if($_POST["name"]!=""&& $_POST["lastname"]!=""&&$_POST["description"]!=""){
 			include "conexion.php";
 			
-			$sql = "insert into author(name,lastname,email,address,phone,created_at) value (\"$_POST[name]\",\"$_POST[lastname]\",\"$_POST[email]\",\"$_POST[address]\",\"$_POST[phone]\",NOW())";
+			$sql = "insert into author(name,lastname,email,description,phone,created_at) value (\"$_POST[name]\",\"$_POST[lastname]\",\"$_POST[email]\",\"$_POST[description]\",\"$_POST[phone]\",NOW())";
 			$query = $con->query($sql);
 			if($query!=null){
 				print "<script>alert(\"Agregado exitosamente.\");window.location='../ver.php';</script>";

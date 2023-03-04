@@ -26,8 +26,8 @@ while ($r=$query->fetch_object()){
     <input type="text" class="form-control" value="<?php echo $person->lastname; ?>" name="lastname" required>
   </div>
   <div class="form-group">
-    <label for="address">Comentario</label>
-    <input type="text" class="form-control" value="<?php echo $person->address; ?>" name="address" required>
+    <label for="description">Comentario</label>
+    <input type="text" class="form-control" value="<?php echo $person->description; ?>" name="description" required>
   </div>
   <div class="form-group">
     <label for="email">Email</label>

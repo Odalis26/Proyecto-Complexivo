@@ -2,42 +2,42 @@
 include "conexion.php";
 
 $user_id=null;
-$sql1= "select * from person where id = ".$_GET["id"];
+$sql1= "select * from person_blog where id = ".$_GET["id"];
 $query = $con->query($sql1);
-$person = null;
+$person_blog = null;
 if($query->num_rows>0){
 while ($r=$query->fetch_object()){
-  $person=$r;
+  $person_blog=$r;
   break;
 }
 
   }
 ?>
 
-<?php if($person!=null):?>
+<?php if($person_blog!=null):?>
 
 <form role="form" method="post" action="php/actualizar.php">
   <div class="form-group">
     <label for="name">Nombre</label>
-    <input type="text" class="form-control" value="<?php echo $person->name; ?>" name="name" required>
+    <input type="text" class="form-control" value="<?php echo $person_blog->name; ?>" name="name" required>
   </div>
   <div class="form-group">
     <label for="lastname">Apellido</label>
-    <input type="text" class="form-control" value="<?php echo $person->lastname; ?>" name="lastname" required>
+    <input type="text" class="form-control" value="<?php echo $person_blog->lastname; ?>" name="lastname" required>
   </div>
   <div class="form-group">
-    <label for="address">Comentario</label>
-    <input type="text" class="form-control" value="<?php echo $person->address; ?>" name="address" required>
+    <label for="comentario">Comentario</label>
+    <input type="text" class="form-control" value="<?php echo $person_blog->comentario; ?>" name="comentario" required>
   </div>
   <div class="form-group">
     <label for="email">Email</label>
-    <input type="email" class="form-control" value="<?php echo $person->email; ?>" name="email" >
+    <input type="email" class="form-control" value="<?php echo $person_blog->email; ?>" name="email" >
   </div>
   <div class="form-group">
     <label for="phone">Telefono</label>
-    <input type="text" class="form-control" value="<?php echo $person->phone; ?>" name="phone" >
+    <input type="text" class="form-control" value="<?php echo $person_blog->phone; ?>" name="phone" >
   </div>
-<input type="hidden" name="id" value="<?php echo $person->id; ?>">
+<input type="hidden" name="id" value="<?php echo $person_blog->id; ?>">
   <button type="submit" class="btn btn-default">Actualizar</button>
 </form>
 <?php else:?>
