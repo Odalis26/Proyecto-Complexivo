@@ -19,7 +19,7 @@ if($_SESSION["perfil"] == "Vendedor"){
 
   <section class="content-header" style="background-color:white">
     
-    <h1 style="color:black; font-family: monospace; font-weight: bold;">
+    <h1 style="color:black; font-family: monospace; font-weight: bold;" class="text-uppercase">
       
       Administrar productos
     
@@ -53,7 +53,7 @@ if($_SESSION["perfil"] == "Vendedor"){
         
        <table class="table table-bordered table-striped dt-responsive tablaProductos" width="100%" style="background-color:white; color:black; border: 2px white solid;">
          
-        <thead style="background-color:white; color:black; border: 2px white solid;">
+        <thead style="background-color:white; color:black; border: 2px white solid;" class="text-uppercase">
          
          <tr style="background-color:white; color:black; border: 2px white solid;">
            
