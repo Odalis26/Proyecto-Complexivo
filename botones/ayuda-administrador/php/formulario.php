@@ -31,11 +31,11 @@ while ($r=$query->fetch_object()){
   </div>
   <div class="form-group">
     <label for="email">Email</label>
-    <input type="email" class="form-control" value="<?php echo $person_help->email; ?>" name="email" >
+    <input type="email" class="form-control" value="<?php echo $person_help->email; ?>" name="email" required>
   </div>
   <div class="form-group">
     <label for="phone">Telefono</label>
-    <input type="text" class="form-control" value="<?php echo $person_help->phone; ?>" name="phone" >
+    <input type="text" class="form-control" value="<?php echo $person_help->phone; ?>" name="phone" required>
   </div>
 <input type="hidden" name="id" value="<?php echo $person_help->id; ?>">
   <button type="submit" class="btn btn-default">Actualizar</button>
