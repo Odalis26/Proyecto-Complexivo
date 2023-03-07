@@ -226,7 +226,7 @@ MODAL AGREGAR USUARIO
                   <option value="" style="background:black;border: 2px black solid; color:white;">Selecionar perfil</option>
 
                   <option value="Administrador">Administrador</option>
-
+                  <option value="RegistroCliente"> RegistroCliente</option>
                   <option value="Cliente">Cliente</option>
                   
                   <option value="Especial">Especial</option>
