@@ -18,8 +18,8 @@ $totalProductos = count($productos);
 ?>
 
 
-<br><br><br>
-<div class="col-lg-3 col-xs-6" style="width:500px; left:300px">
+<br><br><br><br><br><br><br><br><br><br>
+<div class="col-lg-3 col-xs-6" style="width:450px; left:250px">
 
   <div class="small-box bg-aqua" style="background-color:white;">
 
@@ -48,38 +48,7 @@ $totalProductos = count($productos);
   </div>
 
 </div>
-
-<div class="col-lg-3 col-xs-6" style="width:500px; left:400px">
-
-  <div class="small-box bg-green">
-
-    <div class="inner" style="background:white; border: 2px solid white; color:black; height: 200px;">
-
-      <h3 style="color:black;font-size: 50px;"><?php echo number_format($totalCategorias); ?></h3>
- 
-      <p style="color:black;font-size: 70px;"><b>Categorías</b></p>
-
-    </div>
-
-    <div class="icon">
-      <i class="bi bi-clipboard2-plus-fill" style="color:black;"></i>
-      <svg xmlns="http://www.w3.org/2000/svg" width="126" height="126" style="color:#63FC00;" fill="currentColor" class="bi bi-clipboard2-plus-fill" viewBox="0 0 16 16">
-        <path d="M10 .5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5.5.5 0 0 1-.5.5.5.5 0 0 0-.5.5V2a.5.5 0 0 0 .5.5h5A.5.5 0 0 0 11 2v-.5a.5.5 0 0 0-.5-.5.5.5 0 0 1-.5-.5Z" />
-        <path d="M4.085 1H3.5A1.5 1.5 0 0 0 2 2.5v12A1.5 1.5 0 0 0 3.5 16h9a1.5 1.5 0 0 0 1.5-1.5v-12A1.5 1.5 0 0 0 12.5 1h-.585c.055.156.085.325.085.5V2a1.5 1.5 0 0 1-1.5 1.5h-5A1.5 1.5 0 0 1 4 2v-.5c0-.175.03-.344.085-.5ZM8.5 6.5V8H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V9H6a.5.5 0 0 1 0-1h1.5V6.5a.5.5 0 0 1 1 0Z" />
-      </svg>
-    </div>
-
-    <a href="categorias" class="small-box-footer" style="border: 2px solid black;border-top: transparent; background-color:black; color:white;">
-
-      Más info <i class="fa fa-arrow-circle-right" style="color:white;"></i>
-
-    </a>
-
-  </div>
-
-</div>
-
-<div class="col-lg-3 col-xs-6" style="width:500px; left:200px;position:relative;top:400px;left:-700px">
+<div class="col-lg-3 col-xs-6" style="width:450px; position:relative;top:0px;left:250px">
 
   <div class="small-box bg-yellow">
 
@@ -107,14 +76,46 @@ $totalProductos = count($productos);
   </div>
 
 </div>
+<div class="col-lg-3 col-xs-6" style="width:450px; left:-200px;top:100px">
 
-<div class="col-lg-3 col-xs-6" style="width:500px; position:relative; top:153px; left:400px">
+  <div class="small-box bg-green">
+
+    <div class="inner" style="background:white; border: 2px solid white; color:black; height: 240px;">
+
+      <h3 style="color:black;font-size: 50px;"><?php echo number_format($totalCategorias); ?></h3>
+      <br><br>
+      <p style="color:black;font-size: 70px;"><b>Categorías</b></p>
+
+    </div>
+
+    <div class="icon">
+      <i class="bi bi-clipboard2-plus-fill" style="color:black;"></i>
+      <svg xmlns="http://www.w3.org/2000/svg" width="126" height="126" style="color:#63FC00;" fill="currentColor" class="bi bi-clipboard2-plus-fill" viewBox="0 0 16 16">
+        <path d="M10 .5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5.5.5 0 0 1-.5.5.5.5 0 0 0-.5.5V2a.5.5 0 0 0 .5.5h5A.5.5 0 0 0 11 2v-.5a.5.5 0 0 0-.5-.5.5.5 0 0 1-.5-.5Z" />
+        <path d="M4.085 1H3.5A1.5 1.5 0 0 0 2 2.5v12A1.5 1.5 0 0 0 3.5 16h9a1.5 1.5 0 0 0 1.5-1.5v-12A1.5 1.5 0 0 0 12.5 1h-.585c.055.156.085.325.085.5V2a1.5 1.5 0 0 1-1.5 1.5h-5A1.5 1.5 0 0 1 4 2v-.5c0-.175.03-.344.085-.5ZM8.5 6.5V8H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V9H6a.5.5 0 0 1 0-1h1.5V6.5a.5.5 0 0 1 1 0Z" />
+      </svg>
+    </div>
+
+    <a href="categorias" class="small-box-footer" style="border: 2px solid black;border-top: transparent; background-color:black; color:white;">
+
+      Más info <i class="fa fa-arrow-circle-right" style="color:white;"></i>
+
+    </a>
+
+  </div>
+
+</div>
+
+
+
+<div class="col-lg-3 col-xs-6" style="width:450px; position:relative; top:-190px; left:700px">
 
   <div class="small-box bg-red">
 
-    <div class="inner" style="background:white; border: 2px solid white; color: black;height: 200px;">
+    <div class="inner" style="background:white; border: 2px solid white; color: black;height: 240px;">
 
       <h3 style="color:black;font-size: 50px;"><?php echo number_format($totalProductos); ?></h3>
+      <br><br>
       <p style="color:black;font-size: 70px;"><b>Productos</b></p>
 
     </div>

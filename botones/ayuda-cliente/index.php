@@ -9,8 +9,8 @@ session_start();
 </head>
 
 <body>
-	<?php include "php/navbar.php"; ?>
-	<div class="container">
+	<?php include "php/navbar-autores.php"; ?>
+	<div class="container" style="width:970px;">
 		<div class="row">
 			<div class="col-md-12">
 				<h1>Autores</h1>
@@ -19,7 +19,6 @@ session_start();
 				<input type="image" src="../fotos/foto-Odalis-Rea.jpg" style="border: none;" height="250" width="170" />
 				<h2 style="border: none;position:relative;top:-310px; left: 200px;">AUTOR</h2>
 				<input type="image" src="../fotos/foto-Jorge.jpg" style="border: none;position:relative;top:-310px; left: 170px;" height="250" width="170" />
-				<?php include "php/musica.php"; ?>
 			</div>
 		</div>
 	</div>

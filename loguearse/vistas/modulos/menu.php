@@ -8,7 +8,7 @@
 
 			if ($_SESSION["perfil"] == "Administrador") {
 
-				echo '<br><br><br><br><br><br><br><li class="active">
+				echo '<br><br><br><br><br><br><br><br><br><li class="active">
 
 				<a href="inicio"  style="background-color:white;font-weight: bold;">
 
@@ -32,7 +32,7 @@
 			}
 			if ($_SESSION["perfil"] == "RegistroCliente") {
 
-				echo '<br><br><br><br><br><br><br>
+				echo '<br><br><br><br><br><br><br><br><br>
 
 			<li>
 
@@ -45,25 +45,10 @@
 
 			</li>';
 			}
+
 			if ($_SESSION["perfil"] == "Administrador") {
 
-				echo '<br><br><br><br><br><br><br><li>
-
-				<a href="login-cliente"  style="background-color:black;color:white;font-weight: bold;">
-
-					<i class="bi bi-reception-4" style="color:white"></i>
-					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-reception-4" viewBox="0 0 16 16">
-  						<path d="M0 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-8zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-11z"/>
-					</svg>
-					<span style="color:white">Niveles alcanzados</span>
-
-				</a>
-
-			</li>';
-			}
-			if ($_SESSION["perfil"] == "Administrador") {
-
-				echo '<br><br><br><br><br><br><br><li>
+				echo '<br><br><br><br><br><br><br><br><br><li>
 
 				<a href="grafico-ventas"  style="background-color:black;color:white;font-weight: bold;">
 
@@ -110,7 +95,7 @@
 			}
 			if ($_SESSION["perfil"] == "Administrador" || $_SESSION["perfil"] == "Especial") {
 
-				echo '<br><br><br><br><br><br><br><li>
+				echo '<br><br><br><br><br><br><br><br><br><li>
 
 				<a href="categorias"  style="background-color:black;color:white;font-weight: bold;">
 
@@ -135,7 +120,7 @@
 
 			if ($_SESSION["perfil"] == "Administrador" || $_SESSION["perfil"] == "Cliente") {
 
-				echo '<br><br><br><br><br><br><br><li>
+				echo '<br><br><br><br><br><br><br><br><br><li>
 
 				<a href="clientes"  style="background-color:black;color:white;font-weight: bold;">
 
@@ -211,7 +196,7 @@
 			}
 			if ($_SESSION["perfil"] == "Administrador") {
 
-				echo '<br><br><br><br><br><br><br><li>
+				echo '<br><br><br><br><br><br><br><br><br><li>
 
 				<a href="ver"  style="background-color:black;color:white;font-weight: bold;">
 
@@ -245,7 +230,7 @@
 
 			if ($_SESSION["perfil"] == "Administrador") {
 
-				echo '<br><br><br><br><br><br><br><li>
+				echo '<br><br><br><br><br><br><br><br><br><li>
 
 				<a href="http://localhost/proyecto-complexivo/botones/blog-administrador/ver.php"  style="background-color:black;color:white;font-weight: bold;">
 					<i class="bi bi-chat-dots-fill" style="color:white"></i>

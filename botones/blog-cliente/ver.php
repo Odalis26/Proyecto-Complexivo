@@ -8,7 +8,7 @@
 
 <body>
   <?php include "php/navbar.php"; ?>
-  <div class="container">
+  <div class="container" style="width:970px;">
     <div class="row">
       <div class="col-md-12">
         <h2>BLOG</h2>
@@ -57,8 +57,6 @@
 
 
         <?php include "php/tabla.php"; ?>
-        <?php include "php/musica.php"; ?>
-        <?php include "php/impresora.php"; ?>
   <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 

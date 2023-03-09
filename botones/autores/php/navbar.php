@@ -8,9 +8,8 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="../autores-administrador/ver.php" style="background-color:black; color:white;"><b>AUTORES</b></a>
-      <a class="navbar-brand" href="../ayuda-administrador/ver.php" style="background-color:black; color:white;"><b>AYUDA</b></a>
-      <a class="navbar-brand" href="../blog-administrador/ver.php" style="background-color:black; color:white;"><b>BLOG</b></a>
+      <a class="navbar-brand" href="../autores-administrador/ver.php" style="background-color:black; color:white;position:relative; left:180px"><b>AUTORES</b></a>
+
 
     </div>
 

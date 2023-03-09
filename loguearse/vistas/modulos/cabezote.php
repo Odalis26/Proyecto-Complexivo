@@ -83,10 +83,9 @@
  			</ul>
 
  		</div>
-
- 		<img src="vistas/img/plantilla/logo.png" class="img-responsive" style="padding-top:30px;width: 500px; height:130px;position:relative; left:520px">
-
- 		<p style="background-color: red;color:white; font-size:20px;text-align:center;font-weight:bolder;width: 500px;position:relative; left:562px">Beauty Fashion</p>
+ 		<a href="inicio">
+ 			<img src="vistas/img/plantilla/logo.png" class="img-responsive" style="padding-top:30px;width: 500px; height:230px;position:relative; left:410px">
+ 		</a>
  	</nav>
 
  </header>

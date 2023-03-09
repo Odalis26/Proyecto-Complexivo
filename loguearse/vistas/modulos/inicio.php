@@ -1,6 +1,6 @@
 <br>
 
-<div class="content-wrapper" style="background-color:white; color:#800080;">
+<div class="content-wrapper" style="background-color:white; color:#800080;width:970px;left:500px">
 
   <section class="content-header" style="background-color:white; color:#800080;">
     <br><br><br><br><br>
@@ -10,11 +10,11 @@
 
       if ($_SESSION["perfil"] == "Especial" || $_SESSION["perfil"] == "Cliente" || $_SESSION["perfil"] == "Administrador") {
 
-        echo '<div class="box box-success" style="background-color:white;border:white 3px solid">
+        echo '<div class="box box-success" style="background-color:white;border:white 13px solid;left:200px;">
  
-             <div class="box-header" style="background-color:white;border:white 3px solid">
+             <div class="box-header" style="background-color:white;border:white 13px solid">
  
-             <h1 style="background-color:white; color:#00aae4; text-align:center">Bienvenid@ ' . $_SESSION["nombre"] . '</h1>
+             <h1 style="background-color:white; color:#00aae4; text-align:center;font-size:100px">Bienvenid@ ' . $_SESSION["nombre"] . '</h1>
  
              </div>
  
@@ -25,13 +25,6 @@
 
     </div>
     <br><br>   <br><br>   <br><br>   <br><br>   <br><br>
-    <ol class="breadcrumb">
-
-      <li><a href="inicio"><i class="fa fa-dashboard"></i> Inicio</a></li>
-
-      <li class="active">Tablero</li>
-
-    </ol>
 
   </section>
 

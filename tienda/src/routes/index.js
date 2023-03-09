@@ -4,6 +4,10 @@ const router = Router()
 
 router.get('/', (req, res) => res.render('index', { title: 'FASHION BEAUTY' }))
 
+router.get('/vision', (req, res) => res.render('vision', { title: 'FASHION BEAUTY' }))
+
+router.get('/mision', (req, res) => res.render('mision', { title: 'FASHION BEAUTY' }))
+
 router.get('/ropa-hombre-boda', (req, res) => res.render('ropa-hombre-boda', { title: 'Ropa de hombre para boda' }))
 
 router.get('/ropa-hombre-camisa-casual', (req, res) => res.render('ropa-hombre-camisa-casual', { title: 'Camisa casual de hombre' }))
