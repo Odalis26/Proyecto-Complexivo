@@ -34,6 +34,8 @@ router.get('/ropa-mujer-formal', (req, res) => res.render('ropa-mujer-formal', {
 
 router.get('/ropa-mujer-boda', (req, res) => res.render('ropa-mujer-boda', { title: 'Ropa mujer para boda' }))
 
+router.get('/categorias-maquillaje', (req, res) => res.render('categorias-maquillaje', { title: 'Maquillaje' }))
+
 router.get('/categorias-resalta-labios', (req, res) => res.render('categorias-resalta-labios', { title: 'Resalta tus labios' }))
 
 router.get('/brillo-labial', (req, res) => res.render('brillo-labial', { title: 'Brillo Labial' }))
