@@ -33,8 +33,14 @@ router.get('/ropa-mujer-top', (req, res) => res.render('ropa-mujer-top', { title
 router.get('/ropa-mujer-formal', (req, res) => res.render('ropa-mujer-formal', { title: 'Ropa Formal para mujer' }))
 
 router.get('/ropa-mujer-boda', (req, res) => res.render('ropa-mujer-boda', { title: 'Ropa mujer para boda' }))
+router.get('/', (req, res) => res.render('', { title: '' }))
+router.get('/categoria-maquillaje-match', (req, res) => res.render('categoria-maquillaje-match', { title: 'categoria maquillaje match' }))
 
 router.get('/categorias-maquillaje', (req, res) => res.render('categorias-maquillaje', { title: 'Maquillaje' }))
+
+router.get('/categorias-maquillaje-2', (req, res) => res.render('categorias-maquillaje-2', { title: 'Maquillaje' }))
+
+router.get('/categorias-maquillaje copy', (req, res) => res.render('categorias-maquillaje copy', { title: 'Maquillaje' }))
 
 router.get('/categorias-resalta-labios', (req, res) => res.render('categorias-resalta-labios', { title: 'Resalta tus labios' }))
 
@@ -44,7 +50,37 @@ router.get('/brillos-labiales', (req, res) => res.render('brillos-labiales', { t
 
 router.get('/brillo-labial-publicidad', (req, res) => res.render('brillo-labial-publicidad', { title: 'Publicidad de Brillos Labiales' }))
 
-router.get('/labiales', (req, res) => res.render('labiales', { title: 'Labiales Mate' }))
+router.get('/labial-samburu', (req, res) => res.render('labial-samburu', { title: 'Labial Mate Samburu' }))
+
+router.get('/labialSahara', (req, res) => res.render('labialSahara', { title: 'Labiales Mate Sahara' }))
+
+router.get('/labiales-nairobi', (req, res) => res.render('labiales-nairobi', { title: 'Labiales Mate Nairobi' }))
+
+router.get('/labiales-masai', (req, res) => res.render('labiales-masai', { title: 'Labiales Mate Masai' }))
+
+router.get('/labiales-kalahari', (req, res) => res.render('labiales-kalahari', { title: 'Labiales Mate Kalahari' }))
+
+router.get('/labiales-gobi', (req, res) => res.render('labiales-gobi', { title: 'Labiales Mate Gobi' }))
+
+router.get('/labiales-atacama', (req, res) => res.render('labiales-atacama', { title: 'Labiales Mate Atacama' }))
+
+router.get('/labial-icon-violet', (req, res) => res.render('labial-icon-violet', { title: 'Labiales Hidratante icon violet' }))
+
+router.get('/labial-candy-red', (req, res) => res.render('labial-candy-red', { title: 'Labiales Hidratante Candy Red' }))
+router.get('/labial-light-pink', (req, res) => res.render('labial-light-pink', { title: 'Labiales Hidratante Light Pink' }))
+router.get('/labial-rose-nude', (req, res) => res.render('labial-rose-nude', { title: 'Labiales Hidratante Rose Nude' }))
+router.get('/labial-sand-nude', (req, res) => res.render('labial-sand-nude', { title: 'Labiales Hidratante Sand Nude' }))
+router.get('/labial-sweet-coral', (req, res) => res.render('labial-sweet-coral', { title: 'Labiales Hidratante Sweet Coral' }))
+router.get('/labial-flame-coral', (req, res) => res.render('labial-flame-coral', { title: 'Labiales Hidratante Flame Coral' }))
+router.get('/labial-hot-pink', (req, res) => res.render('labial-hot-pink', { title: 'Labiales Hidratante Hot Pink' }))
+router.get('/labial-flash-red', (req, res) => res.render('labial-flash-red', { title: 'Labiales Hidratante  Flash Red' }))
+router.get('/labial-seytu-red', (req, res) => res.render('labial-seytu-red', { title: 'Labiales Hidratante Seytu Red' }))
+router.get('/labial-topaz', (req, res) => res.render('labial-topaz', { title: 'Labiales Brillo Labial Topaz' }))
+router.get('/labial-ambar', (req, res) => res.render('labial-ambar', { title: 'Labiales Brillo Labial Ambar' }))
+router.get('/labial-agata', (req, res) => res.render('labial-agata', { title: 'Labiales Brillo Labial Agata' }))
+router.get('/labial-zafiro', (req, res) => res.render('labial-zafiro', { title: 'Labiales Brillo Labial Zafiro' }))
+router.get('/labial-opalo', (req, res) => res.render('labial-opalo', { title: 'Labiales Brillo Labial Opalo' }))
+router.get('/labial-rubi', (req, res) => res.render('labial-rubi', { title: 'Labiales Brillo Labial Rubi' }))
 
 router.get('/labiales-descripcion', (req, res) => res.render('labiales-descripcion', { title: 'Información de Labiales Mate' }))
 
@@ -53,6 +89,8 @@ router.get('/labiales-publicidad', (req, res) => res.render('labiales-publicidad
 router.get('/labiales-publicidad-2', (req, res) => res.render('labiales-publicidad-2', { title: 'Publicidad de Labiales Mate' }))
 
 router.get('/labial-hidratante', (req, res) => res.render('labial-hidratante', { title: 'Labiales Hidratantes' }))
+
+router.get('/sahara', (req, res) => res.render('sahara', { title: 'Labiales Hidratantes' }))
 
 router.get('/labiales-hidratantes', (req, res) => res.render('labiales-hidratantes', { title: 'Labiales Hidratantes' }))
 
