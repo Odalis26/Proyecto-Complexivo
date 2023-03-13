@@ -8,19 +8,18 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="./ver.php" style="background-color:black; color:white;"><b>AUTORES</b></a>
-
+      <a class="navbar-brand" href="./" style="background-color:black; color:white;position:relative; left:50px;top: 90px;font-size:20px;"><b></b> <i class="bi bi-people-fill"></i><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+          <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
+        </svg></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav">
-        <li><a href="http://localhost/proyecto-complexivo/loguearse/ver" style="background-color:black; color:white;"><b><i class="bi bi-arrow-left-square-fill"></i>
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="position:relative; left:-300px"fill="currentColor" class="bi bi-arrow-left-square-fill" viewBox="0 0 16 16">
-        <path d="M16 14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12zm-4.5-6.5H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5a.5.5 0 0 0 0-1z"/>
-        </svg></b></a></li>
+      <li><?php include "php/musica.php"; ?></li>
+        <li>	<?php include "php/impresora.php"; ?></li>
       </ul>
-      <form class="navbar-form navbar-left" role="search" action="./buscar.php">
+      <form class="navbar-form navbar-left" role="search" action="./buscar.php" style="position:relative;top:100px; left:-250px;">
         <div class="form-group">
           <input type="text" name="s" class="form-control" placeholder="Buscar" >
         </div>

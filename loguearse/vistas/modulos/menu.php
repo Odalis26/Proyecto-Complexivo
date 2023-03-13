@@ -244,7 +244,7 @@
 
 				echo '<br><br><br><br><br><br><br><br><br><li>
 
-				<a href="ver"  style="background-color:black;color:white;font-weight: bold;">
+				<a href="http://localhost/proyecto-complexivo/botones/autores-administrador/ver.php"  style="background-color:black;color:white;font-weight: bold;">
 
 					<i class="bi bi-people-fill"style="color:white"></i>
 					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
