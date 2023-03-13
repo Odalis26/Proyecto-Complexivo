@@ -13,12 +13,12 @@ if ($_SESSION["perfil"] == "Especial") {
 
 ?>
 
-<br><br><br><br>
-<div class="content-wrapper" style="background-color:white; position:relative; width:1170px; left:200px">
+<br><br><br><br><br><br><br><br>
+<div class="content-wrapper" style="background-color:white; position:relative; width:970px; left:200px">
 
   <section class="content-header" style="background-color:white">
 
-    <h1 style="color:black; font-family: monospace; font-weight: bold;">
+    <h1 style="color:black; font-family: monospace; font-weight: bold;" class="text-uppercase">
 
       Administrar clientes
 

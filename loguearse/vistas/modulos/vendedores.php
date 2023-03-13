@@ -44,10 +44,10 @@ $noRepetirNombres = array_unique($arrayVendedores);
 <!--=====================================
 Comprador o ADMINISTRADOR
 ======================================-->
-<br>
-<h1 style="text-align:center;">Compradores o Administrador</h1>
+
+<h1 style="text-align:center;color:black" class="text-uppercase">Compradores o Administrador</h1>
 <br><br>
-<div class="box box-success" style="background-color: white;border: 4px solid #1e90ff; position:relative; width:1090px; left:350px;height: 400px;">
+<div class="box box-success" style="background-color:white; position:relative; width:870px; left:300px">
 	
 	<div class="box-header with-border" style="background-color: white;border: 2px solid white; color: #1e90ff;">
     

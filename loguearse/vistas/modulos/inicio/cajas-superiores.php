@@ -39,11 +39,18 @@ $totalProductos = count($productos);
 
     </div>
 
-    <a href="ventas" class="small-box-footer" style="background-color: black;border: 2px solid black; color:white;">
+    <?php
 
-      Más info <i class="fa fa-arrow-circle-right" style="color:white;"></i>
+    if (isset($_GET["fechaInicial"])) {
 
-    </a>
+      echo '<a href="vistas/modulos/descargar-reporte.php?reporte=reporte&fechaInicial=' . $_GET["fechaInicial"] . '&fechaFinal=' . $_GET["fechaFinal"] . '">';
+    } else {
+
+      echo '<a href="vistas/modulos/descargar-reporte.php?reporte=reporte">';
+    }
+
+    ?>
+    <button class="btn btn-success" style="margin-top:0px">Descargar reporte en Excel</button>
 
   </div>
 

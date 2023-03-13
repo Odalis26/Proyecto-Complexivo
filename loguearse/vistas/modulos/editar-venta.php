@@ -1,9 +1,9 @@
-<br><br><br><br>
-<div class="content-wrapper" style="background-color:#FFFFFF;position:relative; left:200px; width:1300px;">
+<br><br><br><br><br><br><br><br>
+<div class="content-wrapper" style="background-color:white; position:relative; width:990px; left:200px">
 
   <section class="content-header" style="background-color:#FFFFFF">
     
-    <h1 style="color:black; font-family: monospace; font-weight: bold;position:relative; width:4500px; left:15px">
+    <h1 style="color:black; font-family: monospace; font-weight: bold;position:relative; width:4500px; left:15px" class="text-uppercase">
       
       Editar  la compra del cliente
     
@@ -19,7 +19,7 @@
 
   </section>
 
-  <section class="content" style="background-color:#FFFFFF">
+  <section class="content" style="background-color:white; position:relative; width:1090px; left:-40px;">
 
     <div class="row">
 

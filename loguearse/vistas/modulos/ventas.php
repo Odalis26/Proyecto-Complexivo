@@ -21,8 +21,8 @@ if ($xml) {
 }
 
 ?>
-<br><br><br><br>
-<div class="content-wrapper" style="background-color:#FFFFFF; position:relative; width:1170px; left:200px">
+<br><br><br><br><br><br><br><br>
+<div class="content-wrapper" style="background-color:white; position:relative; width:970px; left:200px">
 
   <section class="content-header" style="background-color:#FFFFFF">
 
@@ -158,7 +158,7 @@ if ($xml) {
                     <i class="fa fa-print" style="color: white;"><input style="width:20px;color: white;background-color:black;border-color:white;border:none" type="button" value="" class="printbutton"></i>  
                   </button>';
 
-              if ($_SESSION["perfil"] == "Administrador") {
+              if ($_SESSION["perfil"] == "AdministradorComprador") {
 
                 echo '<button class="btn btn-warning btnEditarVenta" idVenta="' . $value["id"] . '"><i class="fa fa-pencil"></i></button>
 

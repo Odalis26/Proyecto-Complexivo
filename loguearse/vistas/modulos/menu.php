@@ -33,17 +33,27 @@
 			if ($_SESSION["perfil"] == "RegistroCliente") {
 
 				echo '<br><br><br><br><br><br><br><br><br>
+				
+				<li class="active">
 
-			<li>
+					<a href="inicio"  style="background-color:white;font-weight: bold;">
 
-				<a href="cliente"  style="background-color:black;font-weight: bold;">
+						<i class="fa fa-home"  style="color:black"></i>
+						<span style="color:black">Inicio</span>
 
-					<i class="fa fa-user"  style="color:white"></i>
-					<span style="color:white">Usuario Cliente</span>
+					</a>
 
-				</a>
+				</li>
+				<li>
 
-			</li>';
+					<a href="cliente"  style="background-color:black;font-weight: bold;">
+
+						<i class="fa fa-user"  style="color:white"></i>
+						<span style="color:white">Usuario Cliente</span>
+
+					</a>
+
+				</li>';
 			}
 
 			if ($_SESSION["perfil"] == "Administrador") {
@@ -78,9 +88,20 @@
 
 			</li>';
 			}
-			if ($_SESSION["perfil"] == "Administrador") {
+			if ($_SESSION["perfil"] == "AdministradorComprador") {
 
-				echo '<li>
+				echo '<br><br><br><br><br><br><br><br><br>
+				<li class="active">
+
+					<a href="inicio"  style="background-color:white;font-weight: bold;">
+
+						<i class="fa fa-home"  style="color:black"></i>
+						<span style="color:black">Inicio</span>
+
+					</a>
+
+				</li>
+				<li>
 
 				<a href="vendedores"  style="background-color:black;color:white;font-weight: bold;">
 				<i class="bi bi-person-fill-slash" style="color:black"></i>
@@ -118,23 +139,49 @@
 			</li>';
 			}
 
-			if ($_SESSION["perfil"] == "Administrador" || $_SESSION["perfil"] == "Cliente") {
 
-				echo '<br><br><br><br><br><br><br><br><br><li>
+			if ($_SESSION["perfil"] == "Cliente") {
 
-				<a href="clientes"  style="background-color:black;color:white;font-weight: bold;">
+				echo '<br><br><br><br><br><br><br><br><br>
+				<li class="active">
 
-					<i class="fa fa-users" style="color:white"></i>
-					<span style="color:white">Clientes</span>
+					<a href="inicio"  style="background-color:white;font-weight: bold;">
+		
+						<i class="fa fa-home"  style="color:black"></i>
+						<span style="color:black">Inicio</span>
+		
+					</a>
+	
+				</li>
+				<li>
 
-				</a>
+					<a href="clientes"  style="background-color:black;color:white;font-weight: bold;">
 
-			</li>';
+						<i class="fa fa-users" style="color:white"></i>
+						<span style="color:white">Clientes</span>
+
+					</a>
+
+				</li>';
 			}
+			if ($_SESSION["perfil"] == "Administrador") {
 
-			if ($_SESSION["perfil"] == "Administrador" || $_SESSION["perfil"] == "Cliente") {
+				echo '<br><br><br><br><br><br><br><br><br>
+				<li>
 
-				echo '<li class="treeview">
+					<a href="clientes"  style="background-color:black;color:white;font-weight: bold;">
+
+						<i class="fa fa-users" style="color:white"></i>
+						<span style="color:white">Clientes</span>
+
+					</a>
+
+				</li>';
+			}
+			if ($_SESSION["perfil"] == "AdministradorComprador" || $_SESSION["perfil"] == "Cliente") {
+
+				echo '<br><br><br><br><br><br><br><br><br>
+				<li class="treeview">
 
 				<a href="ventas"  style="background-color:white;font-weight: bold;">
 
@@ -172,11 +219,13 @@
 
 						</a>
 
-					</li>';
+					</li>
+				 </ul>';
+			}
 
-				if ($_SESSION["perfil"] == "Administrador") {
+			if ($_SESSION["perfil"] == "AdministradorComprador") {
 
-					echo '<li>
+				echo '<li>
 
 						<a href="reportes"  style="background-color:black;font-weight: bold;">
 							
@@ -186,14 +235,11 @@
 						</a>
 
 					</li>';
-				}
-
-
-
-				echo '</ul>
-
-			</li>';
 			}
+
+
+
+
 			if ($_SESSION["perfil"] == "Administrador") {
 
 				echo '<br><br><br><br><br><br><br><br><br><li>

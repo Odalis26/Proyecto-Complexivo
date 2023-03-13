@@ -41,10 +41,10 @@ $noRepetirNombres = array_unique($arrayClientes);
 <!--=====================================
 CLIENTES
 ======================================-->
-<br>
-<h1 style="text-align:center;">Clientes que hicieron compras</h1>
+<br><br><br><br><br>
+<h1 style="text-align:center;color:black" class="text-uppercase">Clientes que hicieron compras</h1>
 <br><br>
-<div class="box box-primary" style="background-color: white;border: 4px solid #dc143c; position:relative; width:1090px; left:350px;height: 400px;">
+<div class="box box-primary" style="background-color:white; position:relative; width:870px; left:300px">
 	
 	<div class="box-header with-border" style="background-color: white;border: 2px solid white; color: #dc143c">
     

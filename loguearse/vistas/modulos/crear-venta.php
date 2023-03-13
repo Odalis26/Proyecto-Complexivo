@@ -14,12 +14,12 @@ if($_SESSION["perfil"] == "Especial"){
 
 ?>
 
-<br><br><br><br>
-<div class="content-wrapper" style="background-color:white;position:relative; width:4500px; left:200px">
+<br><br><br><br><br><br><br><br>
+<div class="content-wrapper" style="background-color:white; position:relative; width:990px; left:200px">
 
   <section class="content-header" style="background-color:white">
     
-    <h1 style="color:black; font-family: monospace; font-weight: bold;position:relative; width:4500px; left:115px">
+    <h1 style="color:black; font-family: monospace; font-weight: bold;" class="text-uppercase">
       
       Crear compra
     
@@ -35,7 +35,7 @@ if($_SESSION["perfil"] == "Especial"){
 
   </section>
 
-  <section class="content" style="background-color:white;position:relative; width:1300px; left:-1500px">
+  <section class="content" style="background-color:white; position:relative; width:1090px; left:-40px">
 
     <div class="row">
 
@@ -243,7 +243,7 @@ if($_SESSION["perfil"] == "Especial"){
                 <hr>
 
                 <!--=====================================
-                ENTRADA MÉTODO DE VENTA A LA FUNDACIÓN
+                ENTRADA MÉTODO DE VENTA AL CLIENTE
                 ======================================-->
 
                 <div class="form-group row">
@@ -293,12 +293,12 @@ if($_SESSION["perfil"] == "Especial"){
         </div>
             
       </div>
-
+  
       <!--=====================================
       LA TABLA DE PRODUCTOS
       ======================================-->
 
-      <div class="col-lg-7 hidden-md hidden-sm hidden-xs" style="background-color:white; border: 2px white solid;position:relative; width:740px; top: -70px;left:-30px">
+      <div class="col-lg-7 hidden-md hidden-sm hidden-xs" style="background-color:white; border: 2px white solid;width:640px; top: -600px;left:500px">
         
         <div class="box box-warning" style="background-color:white; border: 2px white solid;">
 

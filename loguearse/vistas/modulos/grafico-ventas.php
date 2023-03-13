@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row" style="background-color:white; position:relative; width:970px; left:200px">
 
   <div class="col-lg-8">
 

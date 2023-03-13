@@ -14,8 +14,8 @@ if($_SESSION["perfil"] == "Vendedor"){
 
 ?>
 
-<br><br><br><br>
-<div class="content-wrapper" style="background-color:white; position:relative; width:1170px; left:200px">
+<br><br><br><br><br><br><br><br>
+<div class="content-wrapper" style="background-color:white; position:relative; width:970px; left:200px">
 
   <section class="content-header" style="background-color:white">
     

@@ -46,15 +46,15 @@ $noRepetirFechas = array_unique($arrayFechas);
 GRÁFICO DE VENTAS
 ======================================-->
 
-<br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
 
-<div class="box box-solid bg-teal-gradient" style="background-color:white; color:#330470;width:1170px; left:200px">
+<div class="box box-solid bg-teal-gradient" style="background-color:white; position:relative; width:870px; left:0px">
 
   <div class="box-header" style="background-color:white; color:black;border: 2px solid white; color:black;border-bottom: 2px solid transparent;">
 
     <i class="fa fa-th" style="color:black;"></i>
 
-    <h3 class="box-title" style="font-weight: 700;">Gráfico de ventas</h3>
+    <h3 class="box-title" style="font-weight: 700;">GRÁFICO DE VENTAS</h3>
 
   </div>
 

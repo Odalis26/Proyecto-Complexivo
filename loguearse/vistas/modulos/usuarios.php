@@ -226,9 +226,9 @@ MODAL AGREGAR USUARIO
                   <option value="" style="background:black;border: 2px black solid; color:white;">Selecionar perfil</option>
 
                   <option value="Administrador">Administrador</option>
-                  <option value="RegistroCliente"> RegistroCliente</option>
+                  <option value="AdministradorComprador">Administrador Comprador</option>
+                  <option value="RegistroCliente"> Registro Cliente</option>
                   <option value="Cliente">Cliente</option>
-                  
                   <option value="Especial">Especial</option>
 
                 </select>
@@ -371,9 +371,9 @@ MODAL EDITAR USUARIO
                   <option value="" id="editarPerfil" style="background:black;border: 2px black solid;color:white"></option>
 
                   <option value="Administrador">Administrador</option>
-
+                  <option value="AdministradorComprador">Administrador Comprador</option>
+                  <option value="RegistroCliente"> Registro Cliente</option>
                   <option value="Cliente">Cliente</option>
-
                   <option value="Especial">Especial</option>
 
                 </select>

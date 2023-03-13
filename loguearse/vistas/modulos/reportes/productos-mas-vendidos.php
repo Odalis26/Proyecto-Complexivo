@@ -17,7 +17,7 @@ $totalVentas = ControladorProductos::ctrMostrarSumaVentas();
 PRODUCTOS MÁS COMPRADOS POR LOS CLIENTES
 ======================================-->
 
-<div class="box box-default"  style="background-color:white; width:560px; left:200px;border: 3px solid white;">
+<div class="box box-default"  style="background-color:white; position:relative; width:470px; left:40px">
 
   <div class="box-header with-border" width="110px"style="background-color:black;border: 3px solid black;">
 

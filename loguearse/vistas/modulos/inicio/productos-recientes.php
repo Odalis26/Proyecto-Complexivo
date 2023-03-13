@@ -9,7 +9,7 @@ $productos = ControladorProductos::ctrMostrarProductos($item, $valor, $orden);
  ?>
 
 
-<div class="box box-primary"style="border: 2px solid white;width:580px; left:28px">
+<div class="box box-primary" style="background-color:white; position:relative; width:470px; left:50px">
 
   <div class="box-header with-border" style="color:white; background-color:black;">
 

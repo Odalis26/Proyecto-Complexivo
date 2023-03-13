@@ -13,12 +13,12 @@ if($_SESSION["perfil"] == "Especial" || $_SESSION["perfil"] == "Vendedor"){
 }
 
 ?>
-<br><br><br><br><br><br><br><br>
-<div class="content-wrapper" style="background-color:white; position:relative; width:970px; left:200px">
+<br><br><br><br>
+<div class="content-wrapper" style="background-color:white;">
 
   <section class="content-header" style="background-color:white">
     
-    <h1 style="color:black; font-family: monospace; font-weight: bold;" class="text-uppercase">
+    <h1 style="color:black; font-family: monospace; font-weight: bold; position:relative; width:1170px; left:210px">
       
       Reporte de compras de los clientes
     
@@ -38,7 +38,7 @@ if($_SESSION["perfil"] == "Especial" || $_SESSION["perfil"] == "Vendedor"){
 
     <div class="box" style="background-color:white; border: 2px white solid;">
 
-      <div class="box-header with-border">
+      <div class="box-header with-border" style="background-color:white; border: 2px white solid;color:#03A5C2;  position:relative; width:1170px; left:200px">
 
         <div class="input-group">
 
@@ -68,7 +68,7 @@ if($_SESSION["perfil"] == "Especial" || $_SESSION["perfil"] == "Vendedor"){
 
         </div>
 
-        <div class="box-tools pull-right" style="background-color:black; border: 2px black solid;color:#03A5C2">
+        <div class="box-tools pull-right" style="background-color:white; border: 2px white solid;color:#03A5C2">
 
         <?php
 
@@ -90,34 +90,6 @@ if($_SESSION["perfil"] == "Especial" || $_SESSION["perfil"] == "Vendedor"){
 
         </div>
          
-      </div>
-
-      <div class="box-body" style="background-color:white; border: 2px white solid;">
-        
-        <div class="row">
-
-          <div class="col-xs-12">
-            
-            <?php
-
-            include "reportes/grafico-ventas.php";
-
-            ?>
-
-          </div>
-
-           <div class="col-md-6 col-xs-12">
-             
-            <?php
-
-            include "reportes/productos-mas-vendidos.php";
-
-            ?>
-
-           </div>
-          
-        </div>
-
       </div>
       
     </div>
